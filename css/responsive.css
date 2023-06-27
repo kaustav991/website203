@@ -1,0 +1,131 @@
+@media screen and (max-width:1200px) {
+    .stellarnav>ul>li>a {
+        padding: 0.9375rem 0.4rem;
+    }
+
+    .bannerSection .middle-banner .middleTextBan h2 {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .bannerSection .middle-banner .middleTextBan h2 span {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        margin-bottom: 1.2rem;
+        display: inline-block;
+    }
+
+    .bannerSection .middle-banner .middleTextBan p {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bannerSection .middle-banner {
+        position: static;
+        transform: translateY(0%);
+        width: 100%;
+        margin: 0rem;
+        padding: 3.75rem 0rem;
+        background: #f3f3f3;
+    }
+
+    .bannerSection .middle-banner .middleTextBan::before {
+        top: -0.625rem;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+
+    .bannerSection .middle-banner .middleTextBan {
+        text-align: center;
+        position: relative;
+    }
+
+    section.about_sl_gms {
+        padding: 3.75rem 0rem 0rem;
+    }
+
+    section.what_sl_gms .row .gms_frame {
+        margin-bottom: 1.875rem;
+    }
+
+    section.sl_gms_feature .feature-box::before {
+        left: 20.32%;
+        right: 20.32%;
+    }
+
+    section.sl_gms_feature .feature-box {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer .ftnav ul {
+        gap: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer .ft-top {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .bannerSection .middle-banner .middleTextBan h2 span {
+        font-size: 1.75rem;
+        line-height: 1.875rem;
+    }
+
+    .bannerSection .middle-banner .middleTextBan p br {
+        display: none;
+    }
+
+    .bannerSection .middleTextBan a {
+        margin-top: 15px;
+    }
+
+    .bannerSection .middle-banner {
+        padding: 1.875rem 0rem;
+    }
+
+    .bannerSection .middle-banner .middleTextBan p {
+        margin-bottom: .9375rem;
+    }
+
+    .bannerSection .middle-banner .middleTextBan h2 {
+        margin-bottom: .9375rem;
+    }
+
+    section.about_sl_gms {
+        padding: 1.875rem 0px;
+    }
+
+    section.what_sl_gms {
+        padding: 1.875rem 0rem 1.875rem;
+    }
+
+    section.what_sl_gms .row .gms_frame {
+        margin-bottom: 1.25rem;
+    }
+
+    section.what_sl_gms .wht_gms_details {
+        text-align: center;
+    }
+
+    section.what_sl_gms .row .wht_gms_details p+a {
+        margin-top: 0.55rem;
+    }
+
+    section.sl_gms_feature {
+        padding: 1.875rem 0rem;
+    }
+}
