@@ -204,7 +204,7 @@
                         <p>We will create a customized skincare plan to help you achieve your #skingoals</p>
                     </li>
                     <li>
-                        <h3>Step 3: Watch Results Happen</h3>
+                        <h3>Step 3: Watch Results Happe</h3>
                         <p>We believe that true results don't happen overnight. We are dedicated to restoring confidence in you & your skin!</p>
                     </li>
                 </ul>
